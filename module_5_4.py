@@ -12,7 +12,7 @@ class House:
         self.nfloors = number_of_floors
 
     def __del__(self):
-        return print(f'{self.name} снесён, но он останется в истории')
+        print(f'{self.name} снесён, но он останется в истории')
 
 h1 = House('ЖК Эльбрус', 10)
 print(House.houses_history)
